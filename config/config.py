@@ -165,22 +165,22 @@ START_IMG_URL = getenv("START_IMG_URL", None)
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "assets/Ping.jpeg",
+    "assets/20220927_084339.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "assets/Playlist.jpeg",
+    "assets/20220927_084339.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "assets/Global.jpeg",
+    "assets/20220927_084339.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "assets/Stats.jpeg",
+    "assets/20220927_084339.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
@@ -267,7 +267,7 @@ if GITHUB_REPO:
 
 
 if PING_IMG_URL:
-    if PING_IMG_URL != "assets/Ping.jpeg":
+    if PING_IMG_URL != "assets/20220927_084339.jpg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
             print(
                 "[ERROR] - Your PING_IMG_URL urlnya salah.  Harap pastikan bahwa ini dimulai dengan https:://"
@@ -275,7 +275,7 @@ if PING_IMG_URL:
             sys.exit()
 
 if PLAYLIST_IMG_URL:
-    if PLAYLIST_IMG_URL != "assets/Playlist.jpeg":
+    if PLAYLIST_IMG_URL != "assets/20220927_084339.jpg":
         if not re.match("(?:http|https)://", PLAYLIST_IMG_URL):
             print(
                 "[ERROR] - Your PLAYLIST_IMG_URL urlnya salah.  Harap pastikan bahwa ini dimulai dengan https:://"
@@ -283,7 +283,7 @@ if PLAYLIST_IMG_URL:
             sys.exit()
 
 if GLOBAL_IMG_URL:
-    if GLOBAL_IMG_URL != "assets/Global.jpeg":
+    if GLOBAL_IMG_URL != "assets/20220927_084339.jpg":
         if not re.match("(?:http|https)://", GLOBAL_IMG_URL):
             print(
                 "[ERROR] - Your GLOBAL_IMG_URL urlnya salah.  Harap pastikan bahwa ini dimulai dengan https:://"
@@ -292,7 +292,7 @@ if GLOBAL_IMG_URL:
 
 
 if STATS_IMG_URL:
-    if STATS_IMG_URL != "assets/Stats.jpeg":
+    if STATS_IMG_URL != "assets/20220927_084339.jpg":
         if not re.match("(?:http|https)://", STATS_IMG_URL):
             print(
                 "[ERROR] - Your STATS_IMG_URL urlnya salah.  Harap pastikan bahwa ini dimulai dengan https:://"
