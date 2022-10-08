@@ -18,7 +18,7 @@ load_dotenv()
 
 # Get it from my.telegram.org
 API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("API_HASH", ""))
 
 ## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -150,7 +150,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
 LOG = 2
-LOG_FILE_NAME = "Thanos-MusicLOGS.txt"
+LOG_FILE_NAME = "Thanos-Music.txt"
 adminlist = {}
 lyrical = {}
 chatstats = {}
